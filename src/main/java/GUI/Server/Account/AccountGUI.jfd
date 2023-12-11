@@ -1,0 +1,117 @@
+JFDML JFormDesigner: "8.0.2.0.220" Java: "17.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			"background": new java.awt.Color( 242, 242, 242, 0 )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "panel1"
+				"background": new java.awt.Color( 242, 242, 242, 0 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "Quản lý tài khoản"
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "West"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "Tạo mới"
+					"minimumSize": new java.awt.Dimension( 100, 30 )
+					"preferredSize": new java.awt.Dimension( 200, 50 )
+					"background": new java.awt.Color( 11, 197, 234, 255 )
+					"foreground": sfield java.awt.Color white
+					"font": new java.awt.Font( "nunito", 0, 18 )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "East"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "North"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "panel3"
+				"border": new javax.swing.border.EmptyBorder( 30, 0, 0, 0 )
+				"background": new java.awt.Color( 237, 242, 247, 255 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+					name: "panel4"
+					"preferredSize": new java.awt.Dimension( 10, 150 )
+					"background": new java.awt.Color( 255, 255, 255, 255 )
+					"border": new javax.swing.border.EmptyBorder( 10, 30, 30, 30 )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+						"alignment": 0
+						"vgap": 10
+					} ) {
+						name: "panel9"
+						"preferredSize": new java.awt.Dimension( 350, 10 )
+						"background": &Color0 new java.awt.Color( 255, 255, 255, 255 )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label3"
+							"text": "Tìm theo tên hoặc id:"
+						} )
+						add( new FormComponent( "javax.swing.JTextField" ) {
+							name: "searchTextField"
+							"preferredSize": new java.awt.Dimension( 330, 30 )
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "East"
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "Danh sách tài khoản:"
+						"background": new java.awt.Color( 255, 255, 255, 255 )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "North"
+					} )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+						"alignment": 0
+						"vgap": 10
+					} ) {
+						name: "panel10"
+						"preferredSize": new java.awt.Dimension( 230, 100 )
+						"background": #Color0
+						"border": new javax.swing.border.EmptyBorder( 0, 20, 0, 0 )
+						"minimumSize": new java.awt.Dimension( 233, 42 )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label5"
+							"text": "Lọc theo tình trạng:"
+						} )
+						add( new FormComponent( "javax.swing.JComboBox" ) {
+							name: "comboBox1"
+							"preferredSize": new java.awt.Dimension( 200, 30 )
+							"DTO": new javax.swing.DefaultComboBoxModel {
+								selectedItem: "Đang hoạt động"
+								addElement( "Đang hoạt động" )
+								addElement( "Offline" )
+							}
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "West"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "First"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+					name: "panel2"
+					"border": new javax.swing.border.EmptyBorder( 0, 20, 20, 20 )
+					"background": new java.awt.Color( 255, 255, 255, 255 )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane1"
+						add( new FormComponent( "javax.swing.JTable" ) {
+							name: "table1"
+						} )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "Center"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "Center"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 980, 615 )
+		} )
+	}
+}

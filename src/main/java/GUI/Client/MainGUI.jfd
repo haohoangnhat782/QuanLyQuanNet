@@ -1,0 +1,269 @@
+JFDML JFormDesigner: "8.0.3.0.246" Java: "17.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "this"
+			"minimumSize": new java.awt.Dimension( 14, 14 )
+			"preferredSize": new java.awt.Dimension( 14, 600 )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) ) {
+				name: "panel14"
+				"background": new java.awt.Color( 235, 248, 255, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label8"
+					"icon": sfield com.jformdesigner.DTO.FormObject NULL_VALUE
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "South"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+				name: "panel1"
+				"background": new java.awt.Color( 237, 242, 247, 255 )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) ) {
+					name: "panel11"
+					"background": new java.awt.Color( 237, 242, 247, 255 )
+					"border": new javax.swing.border.EmptyBorder( 15, 0, 20, 0 )
+					add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridBagLayout ) {
+						"$columnSpecs": "0:1.0, 0:1.0"
+						"$rowSpecs": "0:1.0, 0:1.0, 0:1.0, 0:1.0, 0:1.0, 0:1.0"
+						"$alignTop": true
+						"$alignLeft": true
+						"$hGap": 16
+						"$vGap": 8
+					} ) {
+						name: "panel2"
+						"background": new java.awt.Color( 255, 255, 255, 255 )
+						"border": &EmptyBorder0 new javax.swing.border.EmptyBorder( 5, 5, 5, 5 )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label1"
+							"text": "Tổng thời gian:"
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+							"alignment": 2
+						} ) {
+							name: "panel3"
+							"background": &Color0 new java.awt.Color( 255, 255, 255, 255 )
+							add( new FormComponent( "javax.swing.JTextField" ) {
+								name: "totalTimeTF"
+								"minimumSize": new java.awt.Dimension( 60, 22 )
+								"preferredSize": new java.awt.Dimension( 70, 22 )
+								"focusable": false
+								"text": "00:00"
+							} )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"gridx": 1
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label2"
+							"text": "Thời gian sử dụng:"
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"gridy": 1
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+							"alignment": 2
+						} ) {
+							name: "panel4"
+							"background": #Color0
+							add( new FormComponent( "javax.swing.JTextField" ) {
+								name: "textField2"
+								"minimumSize": new java.awt.Dimension( 60, 22 )
+								"preferredSize": new java.awt.Dimension( 70, 22 )
+								"focusable": false
+								"text": "00:00"
+							} )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"gridx": 1
+							"gridy": 1
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label3"
+							"text": "Thời gian còn lại:"
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"gridy": 2
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+							"alignment": 2
+						} ) {
+							name: "panel5"
+							"background": #Color0
+							add( new FormComponent( "javax.swing.JTextField" ) {
+								name: "textField3"
+								"minimumSize": new java.awt.Dimension( 60, 22 )
+								"preferredSize": new java.awt.Dimension( 70, 22 )
+								"focusable": false
+								"text": "00:00"
+							} )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"gridx": 1
+							"gridy": 2
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label4"
+							"text": "Tổng chi phí:"
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"gridy": 3
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+							"alignment": 2
+						} ) {
+							name: "panel6"
+							"background": #Color0
+							add( new FormComponent( "javax.swing.JTextField" ) {
+								name: "textField4"
+								"minimumSize": new java.awt.Dimension( 60, 22 )
+								"preferredSize": new java.awt.Dimension( 70, 22 )
+								"focusable": false
+								"text": "00:00"
+							} )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"gridx": 1
+							"gridy": 3
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label5"
+							"text": "Chi phí dịch vụ:"
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"gridy": 4
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+							"alignment": 2
+						} ) {
+							name: "panel7"
+							"background": #Color0
+							add( new FormComponent( "javax.swing.JTextField" ) {
+								name: "textField5"
+								"minimumSize": new java.awt.Dimension( 60, 22 )
+								"preferredSize": new java.awt.Dimension( 70, 22 )
+								"focusable": false
+								"text": "00:00"
+							} )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"gridx": 1
+							"gridy": 4
+						} )
+						add( new FormComponent( "javax.swing.JLabel" ) {
+							name: "label6"
+							"text": "Số dư tài khoản:"
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"gridy": 5
+						} )
+						add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) {
+							"alignment": 2
+						} ) {
+							name: "panel8"
+							"background": #Color0
+							add( new FormComponent( "javax.swing.JTextField" ) {
+								name: "textField6"
+								"minimumSize": new java.awt.Dimension( 60, 22 )
+								"preferredSize": new java.awt.Dimension( 70, 22 )
+								"focusable": false
+								"text": "00:00"
+							} )
+						}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+							"gridx": 1
+							"gridy": 5
+						} )
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "Center"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) ) {
+					name: "panel9"
+					"background": &Color1 new java.awt.Color( 237, 242, 247, 255 )
+					"preferredSize": new java.awt.Dimension( 30, 10 )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "West"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.FlowLayout ) ) {
+					name: "panel10"
+					"background": #Color1
+					"minimumSize": new java.awt.Dimension( 30, 10 )
+					"preferredSize": new java.awt.Dimension( 30, 10 )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "East"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+					name: "panel12"
+					"minimumSize": new java.awt.Dimension( 10, 15 )
+					"background": new java.awt.Color( 235, 248, 255, 255 )
+					"border": #EmptyBorder0
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label7"
+						"text": "text"
+						"foreground": new java.awt.Color( 104, 211, 145, 255 )
+						"font": new java.awt.Font( "Nunito SemiBold", 0, 14 )
+					}, new FormLayoutConstraints( class java.lang.String ) {
+						"value": "West"
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "North"
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "North"
+			} )
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.GridLayout ) {
+				"columns": 3
+				"rows": 2
+			} ) {
+				name: "panel13"
+				"background": new java.awt.Color( 235, 248, 255, 255 )
+				"border": new javax.swing.border.EmptyBorder( 0, 0, 15, 0 )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "Tin nhắn"
+					"icon": new com.jformdesigner.DTO.SwingIcon( 0, "/icons/message.png" )
+					"verticalTextPosition": 3
+					"background": new java.awt.Color( 255, 255, 255, 0 )
+					"selectedIcon": new com.jformdesigner.DTO.SwingIcon( 0, "/icons/message.png" )
+					"horizontalTextPosition": 0
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": "Đăng xuất"
+					"horizontalTextPosition": 0
+					"verticalTextPosition": 3
+					"icon": new com.jformdesigner.DTO.SwingIcon( 0, "/icons/logout.png" )
+					"background": &Color2 new java.awt.Color( 255, 255, 255, 0 )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button3"
+					"text": "Mật khẩu"
+					"horizontalTextPosition": 0
+					"verticalTextPosition": 3
+					"icon": new com.jformdesigner.DTO.SwingIcon( 0, "/icons/key.png" )
+					"background": #Color2
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button4"
+					"text": "Ăn, uống"
+					"horizontalTextPosition": 0
+					"verticalTextPosition": 3
+					"icon": new com.jformdesigner.DTO.SwingIcon( 0, "/icons/food.png" )
+					"background": #Color2
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button5"
+					"text": "Khoá máy"
+					"horizontalTextPosition": 0
+					"verticalTextPosition": 3
+					"icon": new com.jformdesigner.DTO.SwingIcon( 0, "/icons/lock.png" )
+					"background": #Color2
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button6"
+					"text": "Tiện ích"
+					"horizontalTextPosition": 0
+					"verticalTextPosition": 3
+					"icon": new com.jformdesigner.DTO.SwingIcon( 0, "/icons/unity.png" )
+					"background": #Color2
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 295, 525 )
+		} )
+	}
+}

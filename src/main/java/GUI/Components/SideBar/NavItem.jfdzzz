@@ -1,0 +1,17 @@
+JFDML JFormDesigner: "8.0.2.0.220" Java: "17.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormComponent( "javax.swing.JButton" ) {
+			name: "this"
+			"text": "sfsdsd"
+			"border": new javax.swing.border.EmptyBorder( 20, 20, 20, 20 )
+			"horizontalAlignment": 2
+			addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "thisMouseEntered", true ) )
+			addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "thisMouseExited", true ) )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+		} )
+	}
+}
